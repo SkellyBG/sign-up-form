@@ -1,5 +1,66 @@
+:root {
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('fonts/Norse-Bold.otf') format('opentype')
+}
+
 body {
     margin: 0;
     padding: 0;
 }
 
+.sign-up-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.banner {
+    position: relative;
+    height: 100vh;
+}
+
+.banner-image {
+    height: 100%;
+    z-index: -1;
+}
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vh 0;
+
+    position: absolute;
+    height: 15vh;
+    top: 25vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.5)
+}
+
+.logo-text {
+    color: white;
+    font-family: 'Norse Bold', sans-serif;
+    font-size: 10vh;
+}
+
+.logo-image {
+    height: 100%;
+}
+
+.logo-attribution {
+    position: absolute;
+    bottom: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5vh;
+}
+
+.logo-attribution a {
+    color: white
+}
