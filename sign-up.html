@@ -38,40 +38,50 @@
             </div>
 
             <div class="form-wrapper">
-                <form method="POST" class="forms">
+                <form method="POST" class="form">
                     <div class="title">
                         Let's do this!
                     </div>
-                    <div class="form-field">
-                        <label for="first_name">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                    <div class="form-field-row">
+                        <div class="form-field">
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" name="first_name" class="input-field">
+                        </div>
+                        <div class="form-field">
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" name="last_name" class="input-field">
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="last_name">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+
+                    <div class="form-field-row">
+                        <div class="form-field">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" class="input-field">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone_number">PHONE NUMBER</label>
+                            <input type="tel" id="phone_number" name="phone_number" class="input-field">
+                        </div>
                     </div>
-                    <div class="form-field">
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
+
+                    <div class="form-field-row">
+                        <div class="form-field">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" class="input-field">
+                        </div>
+                        <div class="form-field">
+                            <label for="confirm_password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm_password" class="input-field">
+                        </div>  
                     </div>
-                    <div class="form-field">
-                        <label for="phone_number">PHONE NUMBER</label>
-                        <input type="number" id="phone_number" name="phone_number">
-                    </div>
-                    <div class="form-field">
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
-                    </div>
-                    <div class="form-field">
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password">
-                    </div>  
                 </form>
             </div>
             <div class="bottom-content">
                 <button class="create-acc-btn">Create Account</button>
-
-                Already have an account? Log in
+                
+                <div class="login">
+                    Already have an account? Log in
+                </div>
             </div>  
             
         </div>
