@@ -121,8 +121,9 @@ body {
 .input-field {
     border-radius: 3px;
     border-width: 1px;
+    border-style: solid;
     border-color: #E5E7EB;
-    background-color: rgb(249, 250, 251);
+    background-color: white;
     font-size: 2vh;
     padding: 0.3em 0.5em;
     box-shadow: none;
@@ -131,7 +132,7 @@ body {
 
 .input-field:focus {
     border-color: #0055ff;
-    box-shadow: 0 2px 2px rgb(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 3px rgb(0, 0, 0, 0.5);
 }
 
 .bottom-content {
@@ -156,4 +157,10 @@ body {
 
 .login {
     font-size: 1.8vh;
+    font-weight: bold;
+}
+
+.login-link {
+    text-decoration: none;
+    color: rgb(89, 109, 72);
 }
